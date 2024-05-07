@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jp-story-downloader"
+version = "0.1.0"
+description = ""
+authors = ["ripdog <ripdog@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tomli-w = "^1.0.0"
+openai = "^1.26.0"
+plac = "^1.4.3"
+platformdirs = "^4.2.1"
+httpx = {extras = ["http2"], version = "^0.27.0"}
+beautifulsoup4 = "^4.12.3"
+html5lib = "^1.1"
+lxml = "^5.2.1"
+tenacity = "^8.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
